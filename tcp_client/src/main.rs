@@ -2,8 +2,8 @@ use std::net::{TcpStream};
 use std::io::{Read, Write};
 use std::str::from_utf8;
 use std::{env, process};
-use std::time::Duration;
-use std::net::SocketAddr;
+// use std::time::Duration;
+// use std::net::SocketAddr;
 
 struct Config {
     ip: String,
